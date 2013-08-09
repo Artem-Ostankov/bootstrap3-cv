@@ -1,14 +1,14 @@
 use Rack::Static, 
-  :urls => ["assets/img", "assets/js", "assets/css", "assets/font"],
-  :root => "public"
+  :urls => ["/img", "/js", "/css", "/font"],
+  :root => "assets"
 
 run lambda { |env|
   [
     200, 
     {
       'Content-Type'  => 'text/html', 
-      'Cache-Control' => 'public, max-age=86400' 
+      'Cache-Control' => 'assets, max-age=86400' 
     },
-    File.open('index.html', File::RDONLY)
+    File.open('assets/index.html', File::RDONLY)
   ]
 }
