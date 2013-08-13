@@ -68,26 +68,26 @@ $(document).ready(function() {
 		})
 		return false;
 	});
-	$('.service').on('mouseover', function() {
+	$('.tool').on('mouseover', function() {
 		$(this).addClass('flipped');
 
 	});
-	$('.service').on('mouseout', function() {
+	$('.tool').on('mouseout', function() {
 		$(this).removeClass('flipped');
 
 	});
-	
-	
-	
+
+
+
 	//=================================== Tooltips =====================================//
-	
+
 	if( $.fn.tooltip() ) {
 		$('[class="tooltip_hover"]').tooltip();
 	}
-	
 
-	
-	
+
+
+
 	//=================================== charts  =================================//
 	function incraseEffect() {
 		$('.chart').easyPieChart({
@@ -98,9 +98,9 @@ $(document).ready(function() {
 			size : 220,
 			lineWidth : 10,
 			animate : 2000
-		});		
+		});
 	}
-	
+
 	//incraseEffect();
 
 	$('#statics').waypoint(function(direction) {

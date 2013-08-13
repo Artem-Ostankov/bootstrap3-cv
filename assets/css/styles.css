@@ -1,20 +1,5 @@
 @charset "utf-8";
 
-/*!
- * FLATO - One Page Theme
- *
- * Copyright 2013 
- * Licensed under the Apache License v2.0
- * http://www.apache.org/licenses/LICENSE-2.0
- * Created by: Carlos Alvarez
- * URL: http://www.basicoh.com
- * Designed and built based on Twitter Bootstrap.
- * Tags: multipurpose, agency theme, one page, single page, responsive, green, flat */
-
-/* ---------------------------------------------------------------------- */
-/*	Import styles
-/* ---------------------------------------------------------------------- */
-
 /* Animations */
 @import url('animate.min.css');
 
@@ -137,7 +122,7 @@ a, a:hover, .element-bottom li, .element-bottom li:hover, #workSlider .carousel-
 .small-blk-btn {
 	font-size: 13px;
 	color: #ffffff;
-	background: #38a1d2;	
+	background: #38a1d2;
 	padding: 10px 15px 10px 15px;
 	display: inline-block;
 	margin: 5px 0;
@@ -188,7 +173,7 @@ ul.social li a {
 	padding: 5px;
 	background: #212328;
 	font-size: 14px;
-	
+
 }
 
 ul.social li a:hover, ul.social li a:focus  {
@@ -274,11 +259,11 @@ ul.main-menu a.current {
     margin: 0;
     padding: 32px 100px;
 }
-#mainSlider .carousel .right, 
-#mainSlider .slide .right, 
+#mainSlider .carousel .right,
+#mainSlider .slide .right,
 #mainSlider #mainSlider .right,
-#mainSlider .carousel .left, 
-#mainSlider .slide .left, 
+#mainSlider .carousel .left,
+#mainSlider .slide .left,
 #mainSlider .right,
 #mainSlider .left {
 	float: none !important;
@@ -405,27 +390,27 @@ ul.main-menu a.current {
 }
 
 
-/* Services ------------------------------------*/
-.services {
+/* Tools ------------------------------------*/
+.tools {
 	background: #38a1d2;
 	color: #ffffff;
 	height: inherit;
 	margin:0;
 	padding:0;
 }
-.services-border {
+.tools-border {
 	border-top: 1px solid #2980b9;
 }
-.service h2 {
+.tool h2 {
 	text-align: center;
 	font-family: 'Dosis', sans-serif;
 	font-size:18px;
 }
-.service img {
+.tool img {
 	display: table;
 	margin: 60px auto 40px auto;
 }
-.service-back p {
+.tool-back p {
 	font-size: 14px;
 	line-height: 21px;
 	font-weight: 400;
@@ -435,55 +420,55 @@ ul.main-menu a.current {
 	margin-right: 30px;
 	margin-top: 15px;
 }
-.service-back {
+.tool-back {
 	padding: 0 6px 0 6px;
 }
 
-/* Service Icons*/
+/* tool Icons*/
 
-.service-1 {
+.tool-1 {
 	display: block;
 	height: 110px;
 	background: url(../img/s1.png) center no-repeat;
 	margin-top: 40px;
 	margin-bottom: 20px;
 }
-.service-2 {
+.tool-2 {
 	display: block;
 	height: 110px;
 	background: url(../img/s2.png) center no-repeat;
 	margin-top: 40px;
 	margin-bottom: 20px;
 }
-.service-3 {
+.tool-3 {
 	display: block;
 	height: 110px;
 	background: url(../img/s3.png) center no-repeat;
 	margin-top: 40px;
 	margin-bottom: 20px;
 }
-.service-4 {
+.tool-4 {
 	display: block;
 	height: 110px;
 	background: url(../img/s4.png) center no-repeat;
 	margin-top: 40px;
 	margin-bottom: 20px;
 }
-.service-5 {
+.tool-5 {
 	display: block;
 	height: 110px;
 	background: url(../img/s5.png) center no-repeat;
 	margin-top: 40px;
 	margin-bottom: 20px;
 }
-.service-6 {
+.tool-6 {
 	display: block;
 	height: 110px;
 	background: url(../img/s6.png) center no-repeat;
 	margin-top: 40px;
 	margin-bottom: 20px;
 }
-.service-7 {
+.tool-7 {
 	display: block;
 	height: 110px;
 	background: url(../img/s7.png) center no-repeat;
@@ -491,7 +476,7 @@ ul.main-menu a.current {
 	margin-bottom: 20px;
 }
 
-.service-8 {
+.tool-8 {
 	display: block;
 	height: 110px;
 	background: url(../img/s8.png) center no-repeat;
@@ -501,7 +486,7 @@ ul.main-menu a.current {
 
 
 /* Styles for the animation effect */
-.service-container {
+.tool-container {
 	min-height: 260px !important;
 	position: relative;
 	border-right: 1px solid #2980b9;
@@ -510,7 +495,7 @@ ul.main-menu a.current {
 	-moz-perspective: 800px;
 	-o-perspective: 800px;
 }
-.service {
+.tool {
 	width: 100%;
 	height: 100%;
 	position: absolute;
@@ -523,7 +508,7 @@ ul.main-menu a.current {
 	-moz-transition: -moz-transform 1s;
 	-o-transition: -o-transform 1s;
 }
-.service-front, .service-back {
+.tool-front, .tool-back {
 	display: block;
 	position: absolute;
 	width: 100%;
@@ -533,11 +518,11 @@ ul.main-menu a.current {
 	-moz-backface-visibility: hidden;
 	-o-backface-visibility: hidden;
 }
-.service-front {
+.tool-front {
 	position: absolute;
 	left: -15px;
 }
-.service-back {
+.tool-back {
 
 	transform: rotateY( 180deg );
 	-webkit-transform: rotateY( 180deg );
@@ -628,7 +613,7 @@ a.stat1 div, a.stat2 div, a.stat3 div {
     text-indent: -9999px;
     width: 100% !important;
 }
-.easyPieChart canvas {    
+.easyPieChart canvas {
     width: 100% !important;
 }
 
@@ -639,7 +624,7 @@ a.stat1, a.stat2, a.stat3 {
 }
 
 a.stat1:hover div, a.stat2:hover div, a.stat3:hover div {
-	
+
 }
 
 a.stat1 span, a.stat2 span, a.stat3 span {
