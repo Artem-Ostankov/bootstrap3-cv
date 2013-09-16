@@ -32,7 +32,6 @@ i[class^="icon-"] {
 	width: auto;
 	background: none;
 }
-
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
@@ -40,22 +39,18 @@ body {
 	line-height: 30px;
 	color: #8d8d8d;
 }
-
 a {
 	outline: 0!important;
 }
-
 h1, h2, h3, h4, h5 {
 	font-family: 'Dosis', sans-serif;
 }
-
 .delay1 {
 	animation-delay: 1s;
 	-o-animation-delay: 1s;
 	-moz-animation-delay: 1s;
 	-webkit-animation-delay: 1s;
 }
-
 .delay2 {
 	animation-delay: 2s;
 	-o-animation-delay: 2s;
@@ -68,7 +63,6 @@ h1, h2, h3, h4, h5 {
 	-moz-animation-delay: 0.5s;
 	-webkit-animation-delay: 0.5s;
 }
-
 .clear {
 	clear: both;
 }
@@ -78,24 +72,21 @@ h1, h2, h3, h4, h5 {
 .grey {
 	color: #8d8d8d;
 }
-
 a {
 	color: #38a1d2;
 	border:0;
 }
-
 a:hover {
 	color: #2f3239;
 	text-decoration: none;
 	border:0;
 }
-
 section {
-    padding: 50px 0 50px 0;
+    padding: 10px 0 30px 0;
     overflow: hidden;
 }
-/* transition elements */
 
+/* transition elements */
 a, a:hover, .element-bottom li, .element-bottom li:hover, #workSlider .carousel-indicators li, #workSlider .carousel-indicators li:hover, .image-overlay, .image-overlay:hover, .close, .close:hover, .big-blu-btn, .big-blu-btn:hover, .small-blk-btn, .small-blk-btn:hover, #staticsSlider .carousel-control, #staticsSlider .carousel-control:hover, #clients img, #clients img:hover {
 	-webkit-transition: 0.3s all ease;
 	-moz-transition: 0.3s all ease;
@@ -105,7 +96,6 @@ a, a:hover, .element-bottom li, .element-bottom li:hover, #workSlider .carousel-
 }
 
 /* buttons */
-
 .big-blu-btn {
 	display: inline-block;
 	color: #FFFFFF;
@@ -119,7 +109,6 @@ a, a:hover, .element-bottom li, .element-bottom li:hover, #workSlider .carousel-
 	color: #ffffff;
 	border: 1px solid #ffffff;
 }
-
 .small-blk-btn {
 	font-size: 13px;
 	color: #ffffff;
@@ -128,7 +117,6 @@ a, a:hover, .element-bottom li, .element-bottom li:hover, #workSlider .carousel-
 	display: inline-block;
 	margin: 5px 0;
 }
-
 .small-blk-btn:hover, .small-blk-btn:focus {
 	background-color: #2f3239;
 	color: #ffffff;
@@ -136,7 +124,6 @@ a, a:hover, .element-bottom li, .element-bottom li:hover, #workSlider .carousel-
 }
 
 /* Headings */
-
 h3.subpage-title {
     font-family: 'Open Sans',sans-serif;
     font-size: 16px;
@@ -153,47 +140,18 @@ h3.subpage-title span {
 	border-bottom:2px solid #38a1d2;
 }
 
-
 /* Header ------------------------------------*/
 header {
 	background: #2f323a;
-	padding-top: 11px;
 	font-size: 14px;
 	line-height: 24px;
 }
-
-ul.social li {
-	float: left;
-	list-style: none;
-	margin-left: 3px;
-	opacity:1;
-	position:relative;
-}
-
-ul.social li a {
-	padding: 5px;
-	background: #212328;
-	font-size: 14px;
-
-}
-
-ul.social li a:hover, ul.social li a:focus  {
-	background: #38a1d2;
-	color: #2f323a;
-}
-
-.top-border {
-	border-bottom: 1px solid #2980b9;
-}
-
-
 
 /* Main Menu ------------------------------------*/
 ul.main-menu {
 	float: right;
 	margin-bottom: 0px;
 }
-
 .nav-collapse .nav > li > a, .nav-collapse .dropdown-menu a {
 	padding: 9px 15px;
 	font-weight: bold;
@@ -202,17 +160,14 @@ ul.main-menu {
 	-moz-border-radius: 0px;
 	border-radius: 0px;
 }
-
 .nav-collapse .nav > li > a:hover, .nav-collapse .dropdown-menu a:hover {
 	background: #212328;
 	color: #ffffff;
 }
-
 ul.main-menu li {
 	list-style: none;
 	float: left;
 }
-
 ul.main-menu li a {
 	display: block;
 	padding: 23px 25px 23px 25px;
@@ -220,17 +175,14 @@ ul.main-menu li a {
 	font-weight: 700;
 	font-size: 13px;
 }
-
 ul.main-menu li:last-child a {
 	padding-right: 0px;
 }
-
 ul.main-menu li a:hover, ul.main-menu li a:focus {
 	color: #38a1d2;
 	text-decoration:none;
 	border:0;
 }
-
 a.resp-menu-btn {
 	padding: 7px 10px 5px 10px;
 	background: #212328;
@@ -238,7 +190,6 @@ a.resp-menu-btn {
 	float: right;
 	margin-top: 17px;
 }
-
 a.resp-menu-btn:hover {
 	background: #38a1d2;
 }
@@ -348,7 +299,6 @@ ul.main-menu a.current {
 	padding-bottom:5px;
 	text-transform:uppercase;
 }
-
 #mainSlider .item p {
 	max-width: 440px;
 	margin-bottom: 50px;
@@ -538,7 +488,6 @@ ul.main-menu a.current {
 }
 
 
-
 /* About ------------------------------------*/
 #about {
 	background: #38a1d2;
@@ -554,15 +503,19 @@ ul.main-menu a.current {
 section#about p {
 	text-align: center;
 }
-.about-arrow {
-	width: 23px;
-	height: 12px;
-	background: url(../img/arrow.png);
-	position: absolute;
-	bottom: -12px;
-	right: 49.4%;
+.social {
+	position: relative;
+	padding-top: 20px;
 }
-
+.social a {
+	padding: 5px;
+	background: #212328;
+	font-size: 14px;
+}
+.social a:hover, .social a:focus  {
+	background: #38a1d2;
+	color: #2f323a;
+}
 
 /* Myself ------------------------------------*/
 
@@ -669,7 +622,12 @@ a.skill1 span, a.skill2 span, a.skill3 span, a.skill4 span {
 	width: 78px;
 	height: 47px;
 	display: block;
+	opacity: 0.5;
 }
+.totop:hover {
+	opacity: 1;
+}
+
 section#map_canvas {
 	height: 400px;
 	margin: 0px !important;
@@ -680,7 +638,6 @@ section.map {
 }
 
 /* form */
-
 input[type="text"], textarea, input[type="email"] {
 	background: transparent;
 	border: 1px solid #2980b9;
