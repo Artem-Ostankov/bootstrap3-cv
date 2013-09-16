@@ -103,7 +103,7 @@ $(document).ready(function() {
 
 	//incraseEffect();
 
-	$('#statics').waypoint(function(direction) {
+	$('#skills').waypoint(function(direction) {
 		incraseEffect();
 		//alert(direction); // up, down, left, or right
 		$('.information').waypoint('destroy');
