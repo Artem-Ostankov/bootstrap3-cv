@@ -604,9 +604,11 @@ a.skill1 span, a.skill2 span, a.skill3 span, a.skill4 span {
 #contact h3.subpage-title span {
 	border-bottom-color:#fff;
 }
-
-#contact-form input[type="text"], #contact-form input[type="email"] {
-	height: 4em;
+#contact .mail {
+	color: white
+}
+#contact .mail:hover{
+	color: #2f3239;
 }
 .copyright {
 	font-size: 11px;
@@ -1153,12 +1155,6 @@ section.map {
 /*	Mobile Version 767px
  /* ---------------------------------------------------------------------- */
 @media (max-width: 767px) {
-	ul.social {
-		display: inline-block;
-		float: none;
-		margin: 20px auto !important;
-		text-align: center;
-	}
 	.big-blu-btn {
 		font-size: 16px;
 		margin: -15px 0 18px;
